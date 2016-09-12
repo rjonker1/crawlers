@@ -11,7 +11,7 @@ class UsBankPrivateCrawler(UsBankBaseCrawler):
 
 	def Crawl(self):
 		try:
-			credential = Credential('Ravta2016', 'Ravtrade5!')
+			credential = Credential('#', '#')
 			self.Login(credential)
 		except Exception as e:
 			print('An error occurred in the US Bank Private Crawler: %s' % (str(e)))
