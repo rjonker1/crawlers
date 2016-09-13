@@ -1,0 +1,72 @@
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"javascriptEnabled": true, "browserName": "phantomjs", "platform": "ANY", "version": ""}}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/window/current/size {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "height": 550, "width": 1120, "windowHandle": "current"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/url {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "url": "http://trustinvestorreporting.usbank.com"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 root         INFO     Crawling US Bank Private
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/url {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/url {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): usbtrustgateway.usbank.com
+09-13 15:25 requests.packages.urllib3.connectionpool DEBUG    "GET /portal/login.do HTTP/1.1" 302 0
+09-13 15:25 requests.packages.urllib3.connectionpool DEBUG    "GET /portal/ HTTP/1.1" 302 0
+09-13 15:25 requests.packages.urllib3.connectionpool DEBUG    "GET /portal/login.do HTTP/1.1" 200 6044
+09-13 15:25 root         DEBUG    Login page is valid
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/url {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/url {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 root         DEBUG    Login in using https://usbtrustgateway.usbank.com/portal/login.do
+09-13 15:25 root         DEBUG    Checking for authentication failed error
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/url {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/url {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): usbtrustgateway.usbank.com
+09-13 15:25 requests.packages.urllib3.connectionpool DEBUG    "GET /portal/login.do HTTP/1.1" 302 0
+09-13 15:25 requests.packages.urllib3.connectionpool DEBUG    "GET /portal/ HTTP/1.1" 302 0
+09-13 15:25 requests.packages.urllib3.connectionpool DEBUG    "GET /portal/login.do HTTP/1.1" 200 6044
+09-13 15:25 root         DEBUG    Has Auth Error False
+09-13 15:25 root         DEBUG    login to page with username Ravta2016 and password Ravtrade5!
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "value": "uname", "using": "id"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element/:wdc:1473773139482/clear {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "id": ":wdc:1473773139482"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "value": "pword", "using": "id"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element/:wdc:1473773139483/clear {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "id": ":wdc:1473773139483"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "value": "uname", "using": "id"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element/:wdc:1473773139482/value {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "id": ":wdc:1473773139482", "value": ["R", "a", "v", "t", "a", "2", "0", "1", "6"]}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "value": "pword", "using": "id"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element/:wdc:1473773139483/value {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "id": ":wdc:1473773139483", "value": ["R", "a", "v", "t", "r", "a", "d", "e", "5", "!"]}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "value": "//input[@value=\"Log In\"]", "using": "xpath"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element/:wdc:1473773139484/click {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "id": ":wdc:1473773139484"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "value": "//h6[@class=\"error\"]", "using": "xpath"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 root         ERROR    Message: {"errorMessage":"Unable to find element with xpath '//h6[@class=\"error\"]'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"106","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:58611","User-Agent":"Python-urllib/3.4"},"httpVersion":"1.1","method":"POST","post":"{\"sessionId\": \"89077e70-79b5-11e6-a2ac-fd1ab5cd594d\", \"value\": \"//h6[@class=\\\"error\\\"]\", \"using\": \"xpath\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/element"}}
+Screenshot: available via screen
+
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/screenshot {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:25 root         INFO     Screenshot Captured as exception_20160913-152558.png
+09-13 15:25 root         INFO     Login successfull
+09-13 15:25 root         DEBUG    Crawling Issuers on url https://trustinvestorreporting.usbank.com/TIR/public/deals/?layout=layout
+09-13 15:25 selenium.webdriver.remote.remote_connection DEBUG    POST http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/url {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d", "url": "https://trustinvestorreporting.usbank.com/TIR/public/deals/?layout=layout"}
+09-13 15:26 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:26 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/source {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:26 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:26 selenium.webdriver.remote.remote_connection DEBUG    GET http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d/source {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:26 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:26 root         ERROR    An error occurred in the US Bank Private Crawler: 'charmap' codec can't encode character '\xc0' in position 201664: character maps to <undefined>
+09-13 15:26 selenium.webdriver.remote.remote_connection DEBUG    DELETE http://127.0.0.1:58611/wd/hub/session/89077e70-79b5-11e6-a2ac-fd1ab5cd594d {"sessionId": "89077e70-79b5-11e6-a2ac-fd1ab5cd594d"}
+09-13 15:26 selenium.webdriver.remote.remote_connection DEBUG    Finished Request
+09-13 15:26 root         INFO     Crawl Ended
